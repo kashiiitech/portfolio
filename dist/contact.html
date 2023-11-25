@@ -54,8 +54,8 @@
       <div class="section-title">Contact Me</div>
       <div class="bottom-line"></div>
       <p class="lead">Here is how you can reach me</p>
-      <!-- <form name="contact" class="contact-form" action="POST" data-netlify="true"> Added class -->
-        <!-- <div class="text-fields">
+      <form name="contact" class="contact-form" action="POST" data-netlify="true"> <!-- Added class - --> 
+        <div class="text-fields">
           <input type="text" class="text-input name-input" placeholder="Name" name="name">
           <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
           <input type="email" class="text-input email-input" placeholder="Email Address" name="email">
@@ -63,27 +63,6 @@
           <textarea class="text-input message-input" placeholder="Enter Message" name="message  "></textarea>
         </div>
         <button type="submit" class="btn-dark">Submit</button>
-      </form> -->
-
-      <form name="contact" method="POST" netlify>
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
       </form>
       
       
